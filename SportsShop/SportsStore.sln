@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Domain", "SportsStore.Domain\SportsStore.Domain.csproj", "{2AB929C1-6FD0-49C6-98DA-F07834371773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.WebUI", "SportsStore.WebUI\SportsStore.WebUI.csproj", "{58F662D2-D47F-4723-9DB2-1D8C37AC54FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.UnitTests", "SportsStore.UnitTests\SportsStore.UnitTests.csproj", "{25432475-2A50-4FED-BA96-370FB4309584}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{708555C3-2B61-4D82-9CA4-FD63F7C2861A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://georgiak22.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SportsStore.Domain\\SportsStore.Domain.csproj
+		SccProjectName1 = SportsStore.Domain
+		SccLocalPath1 = SportsStore.Domain
+		SccProjectUniqueName2 = SportsStore.UnitTests\\SportsStore.UnitTests.csproj
+		SccProjectName2 = SportsStore.UnitTests
+		SccLocalPath2 = SportsStore.UnitTests
+		SccProjectUniqueName3 = SportsStore.WebUI\\SportsStore.WebUI.csproj
+		SccProjectName3 = SportsStore.WebUI
+		SccLocalPath3 = SportsStore.WebUI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AB929C1-6FD0-49C6-98DA-F07834371773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB929C1-6FD0-49C6-98DA-F07834371773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB929C1-6FD0-49C6-98DA-F07834371773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB929C1-6FD0-49C6-98DA-F07834371773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58F662D2-D47F-4723-9DB2-1D8C37AC54FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58F662D2-D47F-4723-9DB2-1D8C37AC54FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58F662D2-D47F-4723-9DB2-1D8C37AC54FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58F662D2-D47F-4723-9DB2-1D8C37AC54FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25432475-2A50-4FED-BA96-370FB4309584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25432475-2A50-4FED-BA96-370FB4309584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25432475-2A50-4FED-BA96-370FB4309584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25432475-2A50-4FED-BA96-370FB4309584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

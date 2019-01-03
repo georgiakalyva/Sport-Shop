@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="header">
+        
+        @{Html.RenderAction("Summary", "Cart");}
+        <div>
+            <img src="/Images/logo.png" />
+            <img src="/Images/ath1.png" style="height:100px; padding-left:40px" />
+            <img src="/Images/ath2.png" style="height:100px;" />
+            <img src="/Images/ath3.png" style="height:100px;" />
+            <img src="/Images/ath4.png" style="height:100px;" />
+        </div>
+       
+    </div>
+    <div id="categories">
+        @{ Html.RenderAction("Menu", "Nav"); }
+        
+    </div>
+    
+    <div id="content">
+        @RenderBody()
+        
+         </div>
+    <div id="categories" > <a style="color:black;" href="/Admin/Index">Admin Panel</a></div>
+
+        <footer>
+            <div align="center" style="color: white; padding-top:20px;">Sports Store Copyright 2014</div>
+
+        </footer>
+    
+</body>
+
+</html>
